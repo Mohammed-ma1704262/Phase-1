@@ -1,16 +1,10 @@
 //	Package Imports
 import '@preline/accordion';
 import '@preline/tooltip';
-import { MoveRight, Plus, createIcons } from 'lucide';
+import './icons';
 
 //	Component Imports
 import '@/components/Button/logic';
 import '@/components/DroneViewer/logic';
-
-//	Convert all <i> tags with the class "lucide" to lucide icons
-createIcons({
-	icons: {
-		MoveRight,
-		Plus,
-	},
-});
+import '@/components/Dropdown/logic';
+import '@/components/NumericInput/logic';
